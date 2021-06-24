@@ -1,4 +1,4 @@
-if(!document.querySelector('#BoostTrigger')) {
+if(!document.querySelector('#BoostTrigger') && window.location.pathname.search('/admin/')<0) {
 
     const BoostTrigger = document.createElement('img');
     BoostTrigger.id = 'BoostTrigger';
