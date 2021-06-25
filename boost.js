@@ -25,7 +25,7 @@ if(!document.querySelector('#BoostTrigger') && window.location.pathname.search('
             });
         
             // Open the chat panel on load
-            chatPanel.show();
+            //chatPanel.show();
         
             // Open panel on click
             document.querySelector('.modal_trigger')
