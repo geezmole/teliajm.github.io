@@ -19,7 +19,8 @@ if(!document.querySelector('#BoostTrigger') && window.location.pathname.search('
       
             // Create chat panel
             var chatPanel = window.boostChatPanel({
-                            apiUrlBase: 'https://odd-water-128c.molin-jesper.workers.dev/api',
+                            //apiUrlBase: 'https://odd-water-128c.molin-jesper.workers.dev/api',
+                            apiUrlBase: 'https://adfs.prd1.prdroot.net/adfs/ls/idpinitiatedsignon.aspx?logintoRP=https://300modernainternal.boost.ai/api',
                             conversationId: conversationId,
                             pace: 'supersonic'
             });
