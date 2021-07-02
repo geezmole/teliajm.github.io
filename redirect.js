@@ -1,1 +1,1 @@
-window.location.replace("http://127.0.0.1/redirect.js");
+window.location.replace("http://127.0.0.1/redirect.html");
