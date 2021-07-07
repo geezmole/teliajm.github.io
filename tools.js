@@ -14,3 +14,6 @@ function openTab(evt, tabName) {
   document.getElementById(tabName).style.display = 'block';
   tablinks[evt-1].className += ' active';
 }
+if(document.getElementsByClassName("tablinks").length > 0) {
+    document.getElementsByClassName("tablinks")[0].className += ' active';
+}
