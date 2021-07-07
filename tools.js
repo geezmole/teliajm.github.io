@@ -1,6 +1,5 @@
 function openTab(evt, tabName) {
   var i, tabcontent, tablinks;
-  var self = this;
 
   tabcontent = document.getElementsByClassName('tabcontent');
   for (i = 0; i < tabcontent.length; i++) {
@@ -13,7 +12,5 @@ function openTab(evt, tabName) {
   }
 
   document.getElementById(tabName).style.display = 'block';
-  //evt.className += ' active';
-  alert(self.className);
-  self.setAttribute("class", "tablinks active");
+  tablinks[evt-1].className += ' active';
 }
