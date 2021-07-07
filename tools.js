@@ -12,5 +12,5 @@ function openTab(evt, tabName) {
   }
 
   document.getElementById(tabName).style.display = 'block';
-  document.getElementById(tabName).className += ' active';
+  evt.className += ' active';
 }
