@@ -12,5 +12,7 @@ function openTab(evt, tabName) {
   }
 
   document.getElementById(tabName).style.display = 'block';
-  evt.className += ' active';
+  //evt.className += ' active';
+  alert(evt.className);
+  evt.setAttribute("class", "tablinks active");
 }
