@@ -1,10 +1,3 @@
-function showHide(div) {
-  var content = document.getElementById(div);
-  if(content != null) {
-      if(content.style.display === "none") content.style.display = "block";
-      else if(content.style.display === "block") content.style.display = "none";
-  }
-}
 function openTab(evt, tabName) {
   var i, tabcontent, tablinks;
 
