@@ -17,3 +17,14 @@ function openTab(evt, tabName) {
 if(document.getElementsByClassName("tablinks").length > 0) {
     document.getElementsByClassName("tablinks")[0].className += ' active';
 }
+function showHide(div) {
+  var content = document.getElementById(div);
+  if(content != null) {
+      if(content.style.display === "none") {
+	      content.style.display = "block";
+      }
+      else if(content.style.display === "block") {
+        content.style.display = "none";
+      }
+  }
+}
